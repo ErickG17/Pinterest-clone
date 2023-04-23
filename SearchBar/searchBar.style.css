@@ -14,29 +14,81 @@
 }
 
 #search{
-    width: 100rem;
     border-radius: 20px;
 }
 
-#notificaciones{
-    width: 2rem;
+
+#menu2{
+    width: 12rem;
+    text-align: center;
+    align-content: end;
 }
 
-#mensajes{
-    width: 2rem;
+#notificaciones,
+#mensajes,
+#perfil,
+#opcionesMenu{
+    width: 3rem;
+    text-align: center;
+    display: block;
+    margin: auto;
 }
 
-#perfil{
+#notificaciones img,
+#mensajes img{
+    width: 1.75rem;
+}
+
+#opcionesMenu img{
+    width: 1.25rem;
+}
+
+#circulo{
     background-color: rgb(247, 87, 66);
     border-radius: 25px;
-    width: 2.2rem;
-    height: 2.2rem;
-    margin-top: 5px;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: auto;
 }
 
 #per{
     color: white;
     text-align: center;
     padding: 0;
-    padding-top: 6px;
+    padding-top: 3px;
+}
+
+.dropdown-menu-end {
+    width: 300px;
+    right: 0;
+}
+
+.card-body {
+    font-size: 12px;
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.rounded-circle{
+    background-color: rgb(247, 87, 66);
+    width: 4rem;
+    height: 4rem;
+    display: block;
+    margin: auto;
+}
+
+.rounded-circle p{
+    font-size: 20px;
+}
+
+#opcionesPerfil div{
+    text-align: start;
+    font-size: 16px;
+    font-weight: 600;
+}
+#opcionesPerfil p{
+    text-align: start;
+    font-size: 12px;
 }
