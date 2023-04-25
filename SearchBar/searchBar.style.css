@@ -19,6 +19,19 @@
     border-radius: 20px;
 }
 
+.search-message {
+    display: none;
+    position: absolute;
+    top: 50px;
+    /* Coloca el mensaje debajo de la barra de búsqueda */
+    width: 100%;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    z-index: 999;
+    /* Asegúrate de que el mensaje siempre aparezca encima de los demás elementos */
+}
+
 /**************************************************************/
 #menu2{
     width: 12rem;
