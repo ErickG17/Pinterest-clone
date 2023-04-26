@@ -15,10 +15,29 @@
 
 /************** Barra de busqueda ******************************/
 
-#search{
+#caja-searchbar{
+    width: 58rem;
     border-radius: 20px;
+  }
+
+.dropdown-menu{
+  width: 58rem;
 }
 
+.boton {
+  background-color: #b6b6b6;
+  width: 105px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  border-radius: 20px;
+}
+
+.contenedor-botones{
+  display: flex;
+  flex-direction: row;
+}
 
 /**************************************************************/
 #menu2{

@@ -46,11 +46,68 @@
                             </ul>
                         </li>
                     </ul>
+                    
                     <!--Barra de busqueda-->
+                    <form class="d-flex" role="search">
+                        <div class="dropdown">
+                            <input id="caja-searchbar"
+                            class="form-control me-2 dropdown-toggle"
+                            type="search"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                            placeholder="Search"
+                            aria-label="search"/>
+                        
+                        <section class="dropdown-menu">
+                            <article>
+                                <p>Busquedas Recientes</p>
+                                <div class="contenedor-botones"> <!-- Div principal-->
 
-                    <form class="d-flex flex-grow-1" role="search">
-                        <input class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search" autocomplete="off">
+                                    <div class="boton"> <!--Div secundarios-->
+                                        <div><button class="btn btn-outline-sucess" type="sumit">Carros</button></div>
+                                        <div><button class="btn" id="x">X</button></div>
+                                    </div>
+
+                                    <div class="boton">
+                                        <div><button class="btn btn-outline-sucess" type="sumit">Plantas</button></div>
+                                        <div><button class="btn" id="x">X</button></div>
+                                    </div>
+
+                                    <div class="boton">
+                                        <div><button class="btn btn-outline-sucess" type="sumit">Motos</button></div>
+                                        <div><button class="btn" id="x">X</button></div>
+                                    </div>
+
+                                    <div class="boton">
+                                        <div><button class="btn btn-outline-sucess" type="sumit">Paisajes</button></div>
+                                        <div><button class="btn" id="x">X</button></div>
+                                    </div>
+
+                                    <div class="boton">
+                                        <div><button class="btn btn-outline-sucess" type="sumit">Paises</button></div>
+                                        <div><button class="btn" id="x">X</button></div>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article>
+                                <p>Ideas para ti</p>
+                                <div>
+                                    
+                                </div>
+                            </article>
+
+                            <article>
+                                <p>Populares en Pinterest</p>
+                                <div>
+                                    
+                                </div>
+                            </article>
+                        </section>
+            
                     </form>
+                </div>
+                <!--FIN BARRA DE BUSQUEDA-->  
 
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="menu2">
                         <a class="navbar-brand" href="#" id="notificaciones"><img src="SearchBar/img/campana.png"></a>
