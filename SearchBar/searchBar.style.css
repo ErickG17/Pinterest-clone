@@ -37,6 +37,102 @@
 .contenedor-botones{
   display: flex;
   flex-direction: row;
+  padding-left: 15px;
+}
+.cards-serchbar {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+.para-ti {
+    padding: 5px;
+    text-align: center;
+}
+.texto-encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgba (0, 0, 0, 0.5);
+    z-index: 1;
+   
+}
+.Arte {
+    padding-right: 695px;
+    padding-bottom: 220px;
+}
+.Autos {
+    padding-right: 230px;
+    padding-bottom: 220px;
+}
+.Plantas {
+    padding-left: 200px;
+    padding-bottom: 220px;
+}
+.Artista {
+    padding-left: 675px;
+    padding-bottom: 220px;
+}
+.Cartel {
+    padding-right: 695px;
+    padding-bottom: 50px;
+}
+.Moderno {
+    padding-right: 230px;
+    padding-bottom: 50px;
+}
+.Mascota {
+    padding-left: 210px;
+    padding-bottom: 50px;
+}
+.Paisaje {
+    padding-left: 675px;
+    padding-bottom: 50px;
+}
+
+.Lluvia {
+    padding-right: 695px;
+    padding-top: 275px;
+}
+.Cielo {
+    padding-right: 230px;
+    padding-top: 275px;
+}
+.Montaña {
+    padding-left: 200px;
+    padding-top: 275px;
+}
+.Autos2 {
+    padding-left: 675px;
+    padding-top: 275px;
+}
+.Atardecer {
+    padding-right: 675px;
+    padding-top: 450px;
+}
+.Noche {
+    padding-right: 230px;
+    padding-top: 450px;
+}
+.Astros {
+    padding-left: 210px;
+    padding-top: 450px;
+}
+.Progra {
+    padding-left: 675px;
+    padding-top: 450px;
+}
+.txt {
+    padding-left: 25px;
 }
 
 /**************************************************************/
